@@ -1,0 +1,49 @@
+.navbarComplete-component {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 103px;
+    text-decoration: none;
+    
+  }
+
+.logo-component{
+    align-items: center;
+    margin-left: 44px;
+    
+}
+.itens-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.loginButtons-component{
+    margin-right: 44px;
+    align-items: center;
+}
+.PrimaryButton-component{
+    padding: 18px 34px;
+    background-color: #b01818;
+    border-radius: 10px;
+    margin-right: 44px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+.faqButton-component{
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+    list-style-type: none;
+}
+.logoImage-Component{
+    width: 176px;
+    height: 45px;
+}

@@ -2,18 +2,19 @@
 
 <nav>
     <div class="navbarComplete-component">
-        <div class="logo-component">
-            <a href="{% url 'index' %}">
-                <img src="{% static 'img/logo.png' %}" alt="Logo">
-            </a>
-        </div>
-        <div class="menuItens-component">
-            <ul>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </div>
-        <div class="loginButtons-component">
-            <a href="#">Login</a>
+        <div class="itens-component">
+            <div class="logo-component">
+                <a href="#">
+                    <!--Link da imagem-->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/SENAI_S%C3%A3o_Paulo_logo.png" alt="Logo" class="logoImage-Component">
+                </a>
+            </div>
+            <div class="menuItens-component">
+                <a href="#" class="faqButton-component">FAQ</a>
+            </div>
+            <div>
+                <a href="#" class="PrimaryButton-component">Entrar</a>
+            </div>
         </div>
     </div>
 </nav>
