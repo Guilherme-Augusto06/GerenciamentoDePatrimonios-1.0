@@ -1,8 +1,6 @@
 
 .textsHomepage{
     margin: 0  auto;
-    max-width: 1520px;
-    padding: 20px;
 
 }
 
@@ -15,4 +13,11 @@
 
 .img-homepage{
    max-width: 618px;
+}
+.itensHomepage{
+    display: flex;
+    max-width: 1520px;
+    padding: 20px;
+    align-items: center;
+    margin-top: 5%;
 }

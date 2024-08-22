@@ -1,4 +1,5 @@
 {% extends "index.html" %}
+{% load static %}
 
 {% block body %}
 <div class="itensHomepage">
@@ -9,7 +10,7 @@
             <defs>
             <linearGradient id="paint0_linear_17_68" x1="-4" y1="43" x2="616.625" y2="43" gradientUnits="userSpaceOnUse">
             <stop offset="0.193755"/>
-            <stop offset="1" stop-color="#B01818"/>
+            <stop offset="1" stop-color="#B01818"/> 
             </linearGradient>
             </defs>
             </svg>
@@ -19,7 +20,7 @@
 
     </div>
     <div class="iconHomepage">
-
+        <img src="{% static 'img/ImageIcon.png' %}" alt="ImageIcon" class="ImageIcon-component">
     </div>
 </div>  
 {% endblock %}
