@@ -47,3 +47,16 @@
     width: 176px;
     height: 45px;
 }
+
+
+.material-symbols-outlined {
+    font-size: 40px!important;
+    margin-right: 56px;
+}
+.Buttons-component{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+ 
