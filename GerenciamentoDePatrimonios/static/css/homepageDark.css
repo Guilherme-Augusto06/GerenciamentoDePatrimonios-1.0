@@ -1,0 +1,36 @@
+
+.textsHomepageDark{
+    margin: 0  auto;
+
+}
+
+.subtitlesHomepageDark{
+    font-size: 24px;    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+.img-homepageDark{
+   max-width: 618px;
+}
+.itensHomepageDark{
+    display: flex;
+    max-width: 1520px;
+    padding: 20px;
+    align-items: center;
+    margin-top: 5%;
+}
+.TransparentBlackButton-componentDark{
+    margin-top: 10px;
+    padding: 12px 105px;
+    font-weight: bold;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-right: 44px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-decoration: none;
+    
+}
