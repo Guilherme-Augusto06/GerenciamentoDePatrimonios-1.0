@@ -7,3 +7,6 @@ def homepage(request):
 
 def homepageDark(request):
     return render(request, 'homepageDark.html')
+
+def login(request):
+    return render(request, 'login.html')
