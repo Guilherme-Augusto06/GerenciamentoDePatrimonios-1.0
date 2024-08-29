@@ -4,3 +4,35 @@
 @import url(navbar.css);
 @import url(vector.css);
 @import url(homepage.css);
+@import url(homepageDark.css);
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --color-logo-gradA: black;
+    --color-logo-gradB: #b01717;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --color-logo-gradA: white;
+    --color-logo-gradB: #b01717;
+}
+
+.main {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.titleHomepage{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Poppins;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: linear-gradient(to right, var(--color-logo-gradA), var(--color-logo-gradB));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

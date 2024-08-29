@@ -8,7 +8,14 @@
     font-size: 24px;    
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
+    margin: 0px;
+}
 
+.subtitlesHomepage2{
+    font-size: 24px;    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 0px 0px 40px 0px;
 }
 
 .img-homepage{
@@ -40,6 +47,12 @@
 .TransparentBlackButton-component:hover{
     transform: scale(1.1); /* Aumenta o botão em 10% */
 }
-body{
+.mainWhite {
     background-color: #ffffff;
+    color: #000000;
+}
+
+.mainBlack {
+    background-color: #000000;
+    color: #ffffff;
 }
