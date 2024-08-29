@@ -6,15 +6,14 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 .bg-body-l-w{
-    background-color: #fff;
-    color: #333;
+    color: var(--text-color);
 }
 
 /* Main Content */
@@ -26,7 +25,7 @@ main {
 }
 
 .login-form {
-    background-color: #fff;
+    margin-bottom: 250px;
     border-radius: 10px;
     text-align: center;
     width: 100%;
@@ -42,23 +41,30 @@ main {
 .input-group label {
     margin-bottom: 6px; /* Espaçamento de 6px entre a label e o input */
 }
+.input-group b {
+    font-family: sans-serif;
+
+}
+
 
 .input-container {
+    margin-top: 5px;
     position: relative;
 }
 
 .input-login {
+
     width: 100%; /* Ocupa toda a largura disponível */
     height: 44px;
     padding: 12px 16px;
-    padding-right: 40px; /* Espaço para o ícone */
+    margin-right: 0%; /* Espaço para o ícone */
     border-radius: 12px;
     border: 1px solid var(--AllBlack, rgba(0, 0, 0, 1));
 }
 
 .material-symbols-outlined.icon {
     position: absolute;
-    right: 10px;
+    right: -8%;
     top: 50%;
     transform: translateY(-50%);
     font-size: 24px;
@@ -77,6 +83,17 @@ main {
     border-radius: 10px;
     opacity: 0px;
     font-size: 30px;
+}
+.titleLogin{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: Poppins;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background: linear-gradient(to right, var(--color-logo-gradA), var(--color-logo-gradB));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* Media Queries para responsividade */
