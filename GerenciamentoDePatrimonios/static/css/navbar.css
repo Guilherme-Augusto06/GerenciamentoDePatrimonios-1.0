@@ -1,30 +1,28 @@
 .navbarComplete-component {
-
     width: 100%;
     display: flex;
     align-items: center;
     height: 103px;
     text-decoration: none;
-    
   }
 
 .logo-component{
     align-items: center;
     margin-left: 44px;
-    
 }
+
 .itens-component {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-
 }
 
 .loginButtons-component{
     margin-right: 44px;
     align-items: center;
 }
+
 .PrimaryButton-component{
     padding: 12px 34px;
     background-color: #b01818;
@@ -33,9 +31,25 @@
     font-family: sans-serif;
     color: white;
     font-size: 30px;
+    transition: background-color 0.5s ease; /* Adiciona uma transição suave */
     text-decoration: none;
-    
 }
+.PrimaryButton-component:hover{
+    background-color: #781010;
+}
+
+.IconButton-homepage {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease, transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.IconButton-homepage:hover {
+    color: #781010;
+    transform: scale(1.1); /* Aumenta o botão em 10% */
+}
+
+
 .faqButton-component{
     font-family: sans-serif;
     color: black;
@@ -43,6 +57,7 @@
     font-size: 28px;
     list-style-type: none;
 }
+
 .logoImage-Component{
     width: 176px;
     height: 45px;
@@ -53,6 +68,7 @@
     font-size: 40px!important;
     margin-right: 56px;
 }
+
 .Buttons-component{
     align-items: center;
     justify-content: center;
