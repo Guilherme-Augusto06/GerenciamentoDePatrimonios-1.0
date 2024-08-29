@@ -40,3 +40,6 @@
 .TransparentBlackButton-component:hover{
     transform: scale(1.1); /* Aumenta o botão em 10% */
 }
+body{
+    background-color: #ffffff;
+}
